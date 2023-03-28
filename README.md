@@ -20,15 +20,7 @@ the seven dwarves in a separate variable, it makes more sense to store them in
 an array:
 
 ```js
-const dwarves = [
-  "Happy",
-  "Sleepy",
-  "Sneezy",
-  "Grumpy",
-  "Bashful",
-  "Dopey",
-  "Doc",
-];
+const dwarves = [ "Happy", "Sleepy", "Sneezy", "Grumpy", "Bashful", "Dopey", "Doc" ];
 ```
 
 Using an array makes it possible to refer to the dwarves collectively, using the
@@ -89,8 +81,8 @@ bracket notation and then _assign_ a new value to it:
 The table below shows information about JavaScript array methods that can be
 used to modify arrays. These methods were covered in detail in [Software
 Engineering Prep][array-methods]. You can review that lesson or use the MDN
-documentation for the methods (linked in the table) to refresh your memory about
-how to use each of them.
+documentation for the methods, linked below, to refresh your memory about how to
+use each of them.
 
 [array-methods]:
   https://github.com/learn-co-curriculum/phase-0-intro-to-js-2-array-methods
@@ -101,7 +93,7 @@ how to use each of them.
 | [.unshift()][] | Add element(s) to beginning of array | 1 or more  | Yes          | The length of the modified array            |
 | [.pop()][]     | Remove last element                  | 0          | Yes          | The removed element                         |
 | [.shift()][]   | Remove first element                 | 0          | Yes          | The removed element                         |
-| [.slice()][]   | Remove 0 or more elements            | 0, 1, or 2 | No           | A new array containing the removed elements |
+| [.slice()][]   | Return a subset of the elements      | 0, 1, or 2 | No           | A new array containing the sliced elements  |
 | [.splice()][]  | Remove, add or replace elements      | 1 or more  | Yes          | A new array containing the removed elements |
 
 [.push()]:
@@ -117,9 +109,9 @@ how to use each of them.
 [.splice()]:
   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
-If you check out the [MDN Array documentation][mdn arrays], you can take a look
-at the list of Array methods that are built into JavaScript. Included in the
-list are the methods above, a number of _iterator methods_ that we'll learn
+If you check out the [MDN Array documentation][mdn arrays], you'll see the full
+list of Array methods that are built into JavaScript on the left. Included in
+the list are the methods above, a number of _iterator methods_ that we'll learn
 about a bit later in this course, and quite a few more. We encourage you to
 explore these methods to get a sense for what you can do with arrays. Below are
 a few that we find particularly helpful.
