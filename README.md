@@ -109,7 +109,7 @@ use each of them.
 [.splice()]:
   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
-If you check out the [MDN Array documentation][mdn arrays], you'll see the full
+If you check out the [MDN Array documentation][MDN Arrays], you'll see the full
 list of Array methods that are built into JavaScript on the left. Included in
 the list are the methods above, a number of _iterator methods_ that we'll learn
 about a bit later in this course, and quite a few more. We encourage you to
@@ -193,11 +193,9 @@ their contents. We've also reviewed some of the array methods that can be used
 to modify arrays. In the next lesson, we will learn about another very powerful
 tool we can use to manipulate arrays: the spread operator.
 
-Ignore: Fake content to enable pull request
-
 ## Resources
 
 - [MDN Arrays][]
 
-[mdn arrays]:
+[MDN Arrays]:
   (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
