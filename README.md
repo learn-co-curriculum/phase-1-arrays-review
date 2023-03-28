@@ -193,6 +193,8 @@ their contents. We've also reviewed some of the array methods that can be used
 to modify arrays. In the next lesson, we will learn about another very powerful
 tool we can use to manipulate arrays: the spread operator.
 
+Ignore: Fake content to enable pull request
+
 ## Resources
 
 - [MDN Arrays][]
