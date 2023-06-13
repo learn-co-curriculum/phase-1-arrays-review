@@ -3,7 +3,7 @@
 ## Learning Goals
 
 - Review `Array`s and how to work with them
-- Review some of JavaScript's `Array` methods
+- Use some of JavaScript's `Array` methods
 
 ## Introduction
 
