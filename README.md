@@ -159,15 +159,10 @@ nums.reverse();
 ```
 
 **Note**: The `reverse()` method modifies the array _in place_, i.e., it is
-destructive. If you want to preserve the original array, you will need to create
-a new variable to contain the reversed array:
-
-```js
-const nums = [1, 2, 3];
-const reversedNums = nums.reverse();
-console.log(reversedNums);
-// => [3, 2, 1]
-```
+destructive. If we want to leave the original array unchanged, we would need to
+first make a copy of the array and then call `reverse()` on the copy. However,
+as we will learn in the next lesson, making copies of arrays is a bit more
+complicated than you might expect...
 
 ### Array.prototype.concat()
 
@@ -197,5 +192,4 @@ tool we can use to manipulate arrays: the spread operator.
 
 - [MDN Arrays][]
 
-[MDN Arrays]:
-  (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+[MDN Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
