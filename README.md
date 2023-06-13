@@ -56,7 +56,7 @@ const mixedArray = ["one", 2, ["three", 4], 6.0, { lastNumber: "seven" }];
 
 It is difficult to imagine when an array like this would be useful, however, and
 working with arrays like this could get confusing. In general, it's best to keep
-your arrays simpler!
+your arrays simple!
 
 ## Accessing and Updating Elements
 
